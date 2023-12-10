@@ -127,6 +127,13 @@
           "description": "optional <configName>.config.js instead of default `graphql`",
           "default": null
         },
+        "graphql-config.tmpDir": {
+          "type": [
+            "string"
+          ],
+          "description": "full path to where the language server should put its tmp directory",
+          "default": null
+        },
         "graphql-config.dotEnvPath": {
           "type": [
             "string"
